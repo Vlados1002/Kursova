@@ -1,8 +1,5 @@
 ;(function () {
-	
 	'use strict';
-
-
 
 	var isMobile = {
 		Android: function() {
@@ -24,7 +21,6 @@
 			return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
 		}
 	};
-
 
 	var contentWayPoint = function() {
 		var i = 0;
@@ -56,12 +52,11 @@
 					});
 					
 				}, 50);
-				
+	
 			}
 
 		} , { offset: '90%' } );
 	};
-
 
 	var isotopeImageLoaded = function() {
 		
