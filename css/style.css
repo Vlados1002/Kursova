@@ -22,7 +22,7 @@ body {
 }
 
 a {
-  color: #d3387b;
+  color: #d3387c;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -49,8 +49,8 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 ::-moz-selection {
-  color: #fff;
-  background: #d3387b;
+  color: #fff444;
+  background: #d338543;
 }
 
 ::selection {
